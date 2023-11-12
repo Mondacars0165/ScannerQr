@@ -50,10 +50,22 @@
 [![imagen-2023-11-11-222435778.png](https://i.postimg.cc/2yKVfg7t/imagen-2023-11-11-222435778.png)](https://postimg.cc/wRD6XfP5)
 
 # Implementacion 
+    -En implementación contamos con 3 codigos diferentes, cuales son los de inicio de aplicación, Scan_Screen y el main el cual ejecuta todod el codigo.
 
 
 
 # Arquitectura 
+|-- lib
+|   |-- main.dart
+|   |-- screen
+|       |-- inicio.dart
+|       |-- scan_screen.dart
+|-- assets
+|   |-- images
+|       |-- logoUcm.png
+|       |-- image.png
+|-- ...
+
 
 
 
