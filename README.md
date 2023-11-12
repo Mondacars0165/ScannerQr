@@ -53,8 +53,9 @@
    - En implementación contamos con 3 codigos diferentes, cuales son los de inicio de aplicación, Scan_Screen  y el main el cual ejecuta todo el codigo.
 
 
-```plaintext
+
 # Arquitectura 
+```plaintext
 |-- lib
 |   |-- main.dart
 |   |-- screen
