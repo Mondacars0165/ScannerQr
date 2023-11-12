@@ -7,7 +7,7 @@
     <application
         android:label="scanner_qr"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logoapp"
         tools:overrideLibrary="dev.steenbakker.mobile_scanner">       
         <activity
             android:name=".MainActivity"
