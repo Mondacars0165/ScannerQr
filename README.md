@@ -1,16 +1,60 @@
-# scanner_qr
+# QR-SCANNER
+# Equipo de Proyecto 
 
-A new Flutter project.
+1- Bastian Pezo --- Diseñador
 
-## Getting Started
+2- Cristofer Mondaca --- Desarrollador 
 
-This project is a starting point for a Flutter application.
+3- Armin Herrera --- Arquitecto
 
-A few resources to get you started if this is your first Flutter project:
+# Caso de uso
+**Caso de Uso : Scaneo de Codigos QR**
+*Descripcion:* Aplicacion de dispositivo movil con la funcionalidad de Escanear codigos QR a travez de la camara trasera y delantera
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*Flujo del Caso de Uso :*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Ingreso a la aplicacion movil**
+    - El ususario puede ingresar a la aplicaicon sin necesidad de credenciales.
+
+2. **Redireccionamiento a pagina de Inicio**
+    - Luego de ingresar a la aplicacion esta se redirecciona automaticamenta a la pagina de inicio donde se encuentra un boton para comenzar a escanear.
+
+3. **Redireccionamiento a la pagina de scaneo**
+    - Luego de presiona el boton de escanear se redirecciona a la pagina de escaneo.
+
+4. **Acceso a permisos**
+    - La aplicacion movil al requerir el acceso a la camara pedira los permisos respectivos.
+
+5. **Escaneo**
+    - Luego de contar con los permisos del dispotivo se tendra acceso a la camara desde dentro de la aplicacion , existe opcion de cambiar de camara trasera a delantera.
+
+**Beneficios para usuarios**
+
+1. **Conveniencia**
+   - Permite a los usuarios acceder rápidamente a información o servicios simplemente escaneando un código QR, eliminando la necesidad de teclear URLs o buscar información manualmente.
+
+2. **Ahorro de Tiempo**
+   - El escaneo de códigos QR es un proceso rápido que ahorra tiempo en comparación con la entrada manual de datos.
+
+3. **Versatilidad**
+   - Los códigos QR pueden contener una amplia variedad de información, desde enlaces web hasta vCards, facilitando el acceso a diversos tipos de contenidos.
+
+4. **Mejora de la Experiencia de Usuario**
+   - Una aplicación intuitiva y fácil de usar mejora la experiencia general del usuario.
+
+5. **Accesibilidad**
+    - La capacidad de utilizar tanto la cámara trasera como la delantera hace que la aplicación sea más accesible para diferentes situaciones y preferencias de usuario.
+  
+# Diseño de interfaz
+
+[![imagen-2023-11-11-222435778.png](https://i.postimg.cc/2yKVfg7t/imagen-2023-11-11-222435778.png)](https://postimg.cc/wRD6XfP5)
+
+# Implementacion 
+
+
+
+# Arquitectura 
+
+
+
+
