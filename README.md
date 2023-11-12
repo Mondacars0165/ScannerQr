@@ -50,7 +50,7 @@
 [![imagen-2023-11-11-222435778.png](https://i.postimg.cc/2yKVfg7t/imagen-2023-11-11-222435778.png)](https://postimg.cc/wRD6XfP5)
 
 # Implementacion 
-    -En implementación contamos con 3 codigos diferentes, cuales son los de inicio de aplicación, Scan_Screen y el main el cual ejecuta todod el codigo.
+    En implementación contamos con 3 codigos diferentes, cuales son los de inicio de aplicación, Scan_Screen  y el main el cual ejecuta todo el codigo.
 
 
 
@@ -66,6 +66,48 @@
 |       |-- image.png
 |-- ...
 
+# Caso de Uso Hipotetico: Sistema de Check-In en Eventos.
+
+**Contexto**
+
+Aplicación diseñada para gestionar eventos, como conferencias, conciertos o ferias. Los asistentes pueden usar la aplicación para escanear un código QR en su entrada (física o digital) para realizar un check-in rápido al evento.
+
+**Funcionalidades Clave**
+
+1. **Registro Rápido** 
+   - Al escanear el código QR de la entrada, el usuario se registra automáticamente en el evento.
+
+2. **Información del Evento** 
+   - Una vez hecho el check-in, la aplicación muestra detalles relevantes como el programa, el mapa del lugar, y sesiones o actividades específicas.
+
+3. **Interacción Personalizada** 
+   - Basado en la información del código QR, la aplicación puede ofrecer una experiencia personalizada, mostrando sesiones recomendadas, ofertas especiales, o recordatorios.
+
+4. **Redes Sociales y Compartir**
+   - Permite a los usuarios compartir su participación o experiencias en el evento en redes sociales directamente desde la aplicación.
+
+**Diseño de la Aplicación**
+
+1. Pantalla de Inicio para el Evento: Incluye una sección clara para el escaneo del código QR.
+
+2. Guía Visual para el Escaneo: Proporciona una interfaz sencilla para que el usuario pueda escanear su entrada fácilmente.
+
+3. Feedback Visual y Sonoro: Confirma el check-in exitoso con una respuesta visual y, posiblemente, un sonido característico.
+
+4. Acceso a Información Post-Escaneo: Después de escanear, dirige al usuario a una página con información sobre el evento o actividades personalizadas.
+Soporte y Ayuda: Ofrece asistencia para los usuarios que enfrenten dificultades con el escáner.
+
+**Consideraciones Técnicas**
+
+1. Escalabilidad: Asegura que la aplicación pueda manejar un alto volumen de escaneos en un corto período, común en eventos grandes.
+
+2. Offline Capabilities: Considera la posibilidad de funcionalidad offline para situaciones donde la conexión a Internet es limitada.
+
+3. Integración con Bases de Datos de Eventos: Asegura una integración fluida con bases de datos para verificar entradas y registrar asistencia.
+
+**Conclusión**
+
+Este caso de uso proporciona una manera eficiente y moderna de manejar el registro y check-in en eventos, mejorando la experiencia del usuario y optimizando la gestión del evento. La integración del escáner de códigos QR debe ser intuitiva y agregar valor significativo a la experiencia general de la aplicación.
 
 
 
