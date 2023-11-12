@@ -53,7 +53,7 @@
     En implementación contamos con 3 codigos diferentes, cuales son los de inicio de aplicación, Scan_Screen  y el main el cual ejecuta todo el codigo.
 
 
-
+```plaintext
 # Arquitectura 
 |-- lib
 |   |-- main.dart
@@ -65,7 +65,7 @@
 |       |-- logoUcm.png
 |       |-- image.png
 |-- ...
-
+```
 # Caso de Uso Hipotetico: Sistema de Check-In en Eventos.
 
 **Contexto**
