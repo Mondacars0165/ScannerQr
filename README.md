@@ -53,7 +53,7 @@
    - La implementacion del software fue separado en 3 secciones princiapales :
    - main.dart : En este archivo unicamente se especifica el titulo del proyecto , se elimina el banner de debug de la esquina superior derecha y luego reedirecciona la ejecucion a la funciona StartScreen() de inicio.dart
    - inicio.dart : En este archivo se especifica la estructura de la vista de inicio donde se especifican lo que contiene el appBar (barra superior) ademas en el cuerpo se especifica un titulo de la vista , una imagen representativa de la aplicaicon QR y por ultimo un boton que al presionarlo redirecciona a la funcione Scaneo() encontrada en scan_screen.dart
-   - scan_screen.dart : implementa la funcionalidad de scaneo QR , permite cambiar entre camara trasera y delantera , capruta imagenes y procesa automaticamente URLs de codigos Qr y tambien incluye un boton para mostrar el texto detectado y un texto para copiarlo al portapapeles
+   - scan_screen.dart : implementa la funcionalidad de scaneo QR , permite cambiar entre camara trasera y delantera , captura imagenes y procesa automaticamente URLs de codigos Qr y tambien incluye un boton para mostrar el texto detectado y un texto para copiarlo al portapapeles
     
 
 
