@@ -110,7 +110,7 @@
 
 **Contexto**
 
-Tu aplicación cuenta con la funcionalidad única de permitir a los usuarios copiar el texto contenido en los códigos QR y, si dicho texto es un enlace, redirige automáticamente a la página web correspondiente. Esta característica se explora en un evento educativo donde se utilizan códigos QR para proporcionar información adicional sobre sesiones y recursos.
+La aplicación cuenta con la funcionalidad única de permitir a los usuarios copiar el texto contenido en los códigos QR y, si dicho texto es un enlace, redirige automáticamente a la página web correspondiente. Esta característica se explora en un evento educativo donde se utilizan códigos QR para proporcionar información adicional sobre sesiones y recursos.
 
 **Funcionalidades Clave**
 
