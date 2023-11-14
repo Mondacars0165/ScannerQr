@@ -77,26 +77,31 @@
 |-- web
 |-- windows
 ```
-# Caso de Uso Hipotetico: Sistema de Check-In en Eventos.
+# Caso de Uso Hipotetico: Acceso Rápido a Información Detallada desde Códigos QR Textuales.
 
 **Contexto**
 
-Aplicación diseñada para gestionar eventos, como conferencias, conciertos o ferias. Los asistentes pueden usar la aplicación para escanear un código QR en su entrada (física o digital) para realizar un check-in rápido al evento.
+Tu aplicación cuenta con la funcionalidad única de permitir a los usuarios copiar el texto contenido en los códigos QR y, si dicho texto es un enlace, redirige automáticamente a la página web correspondiente. Esta característica se explora en un evento educativo donde se utilizan códigos QR para proporcionar información adicional sobre sesiones y recursos.
 
 **Funcionalidades Clave**
 
-1. **Registro Rápido** 
-   - Al escanear el código QR de la entrada, el usuario se registra automáticamente en el evento.
+1.**Copiado de Texto desde Códigos QR**
+   -Los usuarios pueden utilizar la aplicación para copiar el texto directamente desde los códigos QR presentes en materiales impresos o pantallas digitales..
 
-2. **Información del Evento** 
-   - Una vez hecho el check-in, la aplicación muestra detalles relevantes como el programa, el mapa del lugar, y sesiones o actividades específicas.
+2. **Reconocimiento de Enlaces Web** 
+   -La aplicación identifica si el texto copiado es un enlace web y, en ese caso, activa automáticamente la redirección a la página web correspondiente.
 
-3. **Interacción Personalizada** 
-   - Basado en la información del código QR, la aplicación puede ofrecer una experiencia personalizada, mostrando sesiones recomendadas, ofertas especiales, o recordatorios.
+3. **Acceso a Recursos y Contenido Adiciona** 
+   - Si el código QR contiene información como enlaces a presentaciones, recursos educativos o material complementario, la aplicación facilita un acceso rápido y directo.
 
-4. **Redes Sociales y Compartir**
-   - Permite a los usuarios compartir su participación o experiencias en el evento en redes sociales directamente desde la aplicación.
-
+**Escenario de uso**
+1.**Materiales Impresos en un Evento Educativo**
+    - Los organizadores del evento distribuyen folletos impresos que contienen códigos QR junto con descripciones de sesiones y charlas.
+2.**Copiado del Código QR**
+    - Un asistente utiliza la aplicación para copiar el texto del código QR presente en el folleto.
+3.**Redirección Automática**
+    - La aplicación reconoce que el texto copiado es un enlace web y redirige automáticamente al asistente a la página web que contiene detalles adicionales sobre la sesión o charla mencionada en el folleto.
+    
 **Diseño de la Aplicación**
 
 1. Pantalla de Inicio para el Evento: Incluye una sección clara para el escaneo del código QR.
