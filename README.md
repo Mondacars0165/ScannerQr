@@ -9,24 +9,24 @@
 
 # Caso de uso
 **Caso de Uso : Scaneo de Codigos QR**
-*Descripcion:* Aplicacion de dispositivo movil con la funcionalidad de Escanear codigos QR a travez de la camara trasera y delantera
+*Descripcion:* Aplicación de dispositivo móvil con la funcionalidad de Escanear codigos QR a traves de la cámara trasera y delantera.
 
 *Flujo del Caso de Uso :*
 
 1. **Ingreso a la aplicacion movil**
-    - El ususario puede ingresar a la aplicaicon sin necesidad de credenciales.
+    - El usuario puede ingresar a la aplicación sin necesidad de credenciales.
 
 2. **Redireccionamiento a pagina de Inicio**
-    - Luego de ingresar a la aplicacion esta se redirecciona automaticamenta a la pagina de inicio donde se encuentra un boton para comenzar a escanear.
+    - Luego de ingresar a la aplicación esta se redirecciona automaticamenta a la pagina de inicio donde se encuentra un botón para comenzar a escanear.
 
 3. **Redireccionamiento a la pagina de scaneo**
-    - Luego de presiona el boton de escanear se redirecciona a la pagina de escaneo.
+    - Luego de presiona el botón de escanear se redirecciona a la pagina de escaneo.
 
 4. **Acceso a permisos**
-    - La aplicacion movil al requerir el acceso a la camara pedira los permisos respectivos.
+    - La aplicación movil al requerir el acceso a la camara pedira los permisos respectivos.
 
 5. **Escaneo**
-    - Luego de contar con los permisos del dispotivo se tendra acceso a la camara desde dentro de la aplicacion , existe opcion de cambiar de camara trasera a delantera.
+    - Luego de contar con los permisos del dispositivo se tendra acceso a la camara desde dentro de la aplicación , existe opción de cambiar de camara trasera a delantera.
 
 **Beneficios para usuarios**
 
