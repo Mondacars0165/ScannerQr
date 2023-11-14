@@ -52,9 +52,38 @@
 # Implementacion 
    - La implementacion del software fue separado en 3 secciones princiapales :
    - main.dart : En este archivo unicamente se especifica el titulo del proyecto , se elimina el banner de debug de la esquina superior derecha y luego reedirecciona la ejecucion a la funciona StartScreen() de inicio.dart
+     **En `main.dart`:**
+- **`MyApp`:**
+  - `MaterialApp`: Proporciona una estructura básica para la aplicación Flutter.
+    - `Scaffold`: Define la estructura básica de la interfaz de usuario.
+      - `AppBar`: Representa la barra superior de la aplicación.
+      - `StartScreen`: Pantalla de inicio de la aplicación.
+
    - inicio.dart : En este archivo se especifica la estructura de la vista de inicio donde se especifican lo que contiene el appBar (barra superior) ademas en el cuerpo se especifica un titulo de la vista , una imagen representativa de la aplicaicon QR y por ultimo un boton que al presionarlo redirecciona a la funcione Scaneo() encontrada en scan_screen.dart
+   - **En `inicio.dart`:**
+
+ - **`StartScreen`:**
+  - `Scaffold`: Define la estructura básica de la interfaz de usuario.
+    - `AppBar`: Representa la barra superior de la pantalla de inicio.
+      - `Image`: Muestra una imagen en la barra de aplicación.
+    - `Column`: Organiza los elementos en una columna vertical.
+      - `Text`: Muestra un mensaje de bienvenida.
+      - `Image`: Muestra una imagen en la pantalla.
+      - `ElevatedButton`: Botón elevado para escanear códigos QR.
+
    - scan_screen.dart : implementa la funcionalidad de scaneo QR , permite cambiar entre camara trasera y delantera , captura imagenes y procesa automaticamente URLs de codigos Qr y tambien incluye un boton para mostrar el texto detectado y un texto para copiarlo al portapapeles
-    
+    **En `scan_screen.dart`:**
+
+- **`Scaneo`:**
+  - `_ScaneoState`: Define el estado mutable para la pantalla de escaneo.
+    - `Scaffold`: Define la estructura básica de la interfaz de usuario.
+      - `AppBar`: Representa la barra superior de la pantalla de escaneo.
+        - `IconButton`: Botón de icono para cambiar entre la cámara frontal y trasera.
+      - `Column`: Organiza los elementos en una columna vertical.
+        - `Expanded`: Expande un widget hijo para ocupar todo el espacio disponible.
+          - `MobileScanner`: Widget para la captura de códigos de barras.
+        - `ElevatedButton` (condicional): Botón elevado para mostrar el texto del código QR detectado.
+
 
 
 
