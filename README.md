@@ -50,7 +50,11 @@
 [![imagen-2023-11-11-222435778.png](https://i.postimg.cc/2yKVfg7t/imagen-2023-11-11-222435778.png)](https://postimg.cc/wRD6XfP5)
 
 # Implementacion 
-   - En implementación contamos con 3 codigos diferentes, cuales son los de inicio de aplicación, Scan_Screen  y el main el cual ejecuta todo el codigo.
+   - La implementacion del software fue separado en 3 secciones princiapales :
+   - main.dart : En este archivo unicamente se especifica el titulo del proyecto , se elimina el banner de debug de la esquina superior derecha y luego reedirecciona la ejecucion a la funciona StartScreen() de inicio.dart
+   - inicio.dart : En este archivo se especifica la estructura de la vista de inicio donde se especifican lo que contiene el appBar (barra superior) ademas en el cuerpo se especifica un titulo de la vista , una imagen representativa de la aplicaicon QR y por ultimo un boton que al presionarlo redirecciona a la funcione Scaneo() encontrada en scan_screen.dart
+   - scan_screen.dart : implementa la funcionalidad de scaneo QR , permite cambiar entre camara trasera y delantera , capruta imagenes y procesa automaticamente URLs de codigos Qr y tambien incluye un boton para mostrar el texto detectado y un texto para copiarlo al portapapeles
+    
 
 
 
@@ -65,7 +69,13 @@
 |   |-- images
 |       |-- logoUcm.png
 |       |-- image.png
-|-- ...
+|-- android
+|-- ios
+|-- linux
+|-- macos
+|-- test
+|-- web
+|-- windows
 ```
 # Caso de Uso Hipotetico: Sistema de Check-In en Eventos.
 
