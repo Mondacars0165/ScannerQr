@@ -104,27 +104,19 @@ Tu aplicación cuenta con la funcionalidad única de permitir a los usuarios cop
     
 **Diseño de la Aplicación**
 
-1. Pantalla de Inicio para el Evento: Incluye una sección clara para el escaneo del código QR.
-
-2. Guía Visual para el Escaneo: Proporciona una interfaz sencilla para que el usuario pueda escanear su entrada fácilmente.
-
-3. Feedback Visual y Sonoro: Confirma el check-in exitoso con una respuesta visual y, posiblemente, un sonido característico.
-
-4. Acceso a Información Post-Escaneo: Después de escanear, dirige al usuario a una página con información sobre el evento o actividades personalizadas.
-Soporte y Ayuda: Ofrece asistencia para los usuarios que enfrenten dificultades con el escáner.
-
+1. Pantalla de bienvenida de la aplicación: Incluye una sección clara para el escaneo del código QR.
+2. Pantalla de Escaneo: Proporciona una pantalla en donde se define como funcione el escaneo y los botones correspondientes.
+.
 **Consideraciones Técnicas**
 
 1. Escalabilidad: Asegura que la aplicación pueda manejar un alto volumen de escaneos en un corto período, común en eventos grandes.
 
 2. Offline Capabilities: Considera la posibilidad de funcionalidad offline para situaciones donde la conexión a Internet es limitada.
 
-3. Integración con Bases de Datos de Eventos: Asegura una integración fluida con bases de datos para verificar entradas y registrar asistencia.
 
 **Conclusión**
 
-Este caso de uso proporciona una manera eficiente y moderna de manejar el registro y check-in en eventos, mejorando la experiencia del usuario y optimizando la gestión del evento. La integración del escáner de códigos QR debe ser intuitiva y agregar valor significativo a la experiencia general de la aplicación.
-
+La aplicación diseñada para escanear códigos QR con ambas cámaras, permitiendo el copiado de texto y la redirección a enlaces, representa una solución ágil y versátil. La combinación de funciones como el escaneo dual, la identificación de enlaces y la experiencia de usuario intuitiva ofrece una herramienta eficaz para la interacción con códigos QR en diversos escenarios.
 
 
 
