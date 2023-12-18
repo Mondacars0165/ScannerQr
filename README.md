@@ -1,11 +1,10 @@
 # QR-SCANNER
 # Equipo de Proyecto 
 
-1- Bastian Pezo --- Diseñador
-
-2- Cristofer Mondaca --- Desarrollador 
-
-3- Armin Herrera --- Arquitecto
+1- Bastian Pezo 
+2- Cristofer Mondaca 
+3- Armin Herrera 
+4- Richard Vasquez
 
 # Caso de uso
 **Caso de Uso : Scaneo de Codigos QR**
